@@ -1,0 +1,434 @@
+*{
+     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    color: white;
+    background-color: rgb(22, 18, 67);
+}
+
+.nav-items{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+    /* background-color: blue; */
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.nav-items .links ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 14px;
+    font-family: cursive;
+    cursor: pointer;
+    color: white;
+}
+
+
+.btn button{
+    background-color: rgb(186, 40, 40);
+    color: white;
+    border-radius: 5px;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* SECTION-ONE */
+.section-one{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background-color: chartreuse; */
+
+}
+
+.section-one_row1{
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    
+}
+
+.section-one_row1 p{
+    width: 220px;
+}
+
+.section-one_row1 .but{
+    display: flex;
+    gap: 80px;
+}
+
+.section-one_row1 .but .b1{
+    border-radius: 50px;
+    border: 0;
+    background-color: rgb(49, 172, 172);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    width: 140px;
+    height: 30px;
+}
+
+.section-one_row1 .but .b2{
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: rgb(14, 14, 63);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    width: 140px;
+    height: 30px;
+}
+
+.section-one_row2 img{
+    width: 450px;
+    height: 300px;
+    position: relative;
+    /* padding-top: 49px; */
+}
+
+/*SECTION-TWO*/
+.section-two{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    /* background-color: chartreuse;*/   
+}
+
+.section-two_row1 img{
+    width: 430px;
+    height: 430px;
+    /* padding-top: 50px; */
+}
+
+.section-two_row2{
+    width: 430px;
+    height: 430px;
+
+    
+}
+
+.section-two_row2 .but2  button{
+    border-radius: 50px;
+    border: 0;
+    background-color: rgb(49, 172, 172);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+}
+
+/* SECTION-THREE */
+.section-three{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    /* background-color: chartreuse;*/   
+}
+
+.section-three_row1 img{
+    width: 430px;
+    height: 430px;
+    /* padding-top: 50px; */
+}
+
+.section-three_row2{
+    width: 430px;
+    height: 430px;
+
+    
+}
+
+.section-three_row2 .but2  button{
+    border-radius: 50px;
+    border: 0;
+    background-color: rgb(49, 172, 172);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+}
+
+.section-four{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 900px;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-four .first-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: whitesmoke;
+}
+
+.card:hover{
+    color: bisque;
+
+}
+.card button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(49, 172, 172);
+    color: white;
+    cursor: pointer;
+}
+
+
+.section-four .first-col .card img{
+    width: 280px;
+    height: 280px;
+}
+
+
+.section-four .second-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.section-four .second-col .card img{
+    width: 280px;
+    height: 280px;
+}
+
+/*SECTION-FIVE*/
+.section-five{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 850px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.section-five .first-row .card2 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: relative;
+    margin-left: 80px;
+}
+
+.imgg{
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+}
+
+.section-five .first-row .txt{
+    width: 290px;
+    height: 190px;
+}
+
+.section-five .first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.section-five .first-row .card2{
+    background-color: rgb(39, 127, 127);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 320px;
+}
+
+.section-five .first-row .card2 h3{
+    text-align: center;
+}
+.section-five .first-row .card2 p{
+    margin-left: 20px;
+}
+
+.section-five .register{
+    width: 71vw;
+    height: 260px;
+    background-color: rgb(125, 125, 187);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 40px;
+    gap: 17px;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(16, 4, 80);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.foot1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 570px;
+  
+}
+
+.foot1 .icons{
+    cursor: pointer;
+}
+.footer h2{
+    width: 330px;
+    text-align: left;
+}
+
+.foot2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 600px;
+}
+
+.btnn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 34px;
+    border-radius: 4px;
+    background-color: brown;
+    color: white;
+    position: absolute;
+    left: 190px;
+}
+
+.foot2 p{
+    font-size: 0.9rem;
+}
+
+.navfoot{
+    display: flex;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 0.7rem;
+}
+
+
+@media screen and (max-width: 680px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        background-color: lightgreen;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .container .section-one{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        z-index: 10;
+    }
+
+    .container .section-two{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        z-index: 20;
+
+    }
+
+    .container .section-three{
+        display: flex;
+        flex-direction: column;
+    height: 500px;
+    z-index: 30;
+    }
+
+    .container .section-four{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        z-index: 40;
+    }
+    .container .section-four .first-col{
+        display: flex;
+        flex-direction: column;
+    }
+    .container .section-four .second-col{
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .container .section-five{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        z-index: 50;
+    }
+    .container .section-five .first-row{
+        display: flex;
+        flex-direction: column;
+    }
+   
+  }
